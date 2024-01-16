@@ -23,6 +23,7 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
+
 .logo-header {
 color: #2E2F42;
 font-family: Raleway;
@@ -66,15 +67,12 @@ flex-shrink: 0;
 .header-adress-item {
     color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   }
   
 .hero {
     background:  #2E2F42;
-
-
 
 }
 .hero-title {
@@ -118,7 +116,6 @@ letter-spacing: 0.02em;
 .features-item-text {
 color: #434455;
 font-size: 16px;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -127,6 +124,7 @@ letter-spacing: 0.02em;
 
 .team {
 }
+
 .section-name {
 color:  #2E2F42;
 text-align: center;
@@ -136,10 +134,13 @@ line-height:1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
+
 .team-list {
 }
+
 .team-card {
 }
+
 .team-img {
 }
 
@@ -155,12 +156,9 @@ letter-spacing: 0.02em;
 .team-position {
 text-align: center;
 font-size: 16px;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
 }
-
 
 /*----portfolio----*/
 .portfolio-title {
@@ -168,6 +166,7 @@ letter-spacing: 0.02em;
 }
 .portfolio-img {
 }
+
 .portfolio-subtitle {
 color:#2E2F42;
 font-size: 20px;
@@ -179,16 +178,16 @@ letter-spacing: 0.02em;
 .portfolio-content {
  color:#434455;
 font-size: 16px;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-
 /*----footer----*/
+
 .footer{
     background: #2E2F42;
 }
+
 .footer-logo {
 color: #F4F4FD;
 font-family: Raleway;
@@ -199,14 +198,13 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
-
 .footer-logo-color {
     color: #4D5AE5;
 }
+
 .footer-text{
 color: #F4F4FD;
 font-size: 16px;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
