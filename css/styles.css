@@ -70,7 +70,6 @@ flex-shrink: 0;
 }
 
 .header-address-item {
-    color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,14 +78,21 @@ flex-shrink: 0;
   .header-address-link{
     color: #434455;
   }
-  .header-address-item:hover,
-  .header-menu-link:hover,
-  .header-menu-link:focus
-  .header-address-link:hover,
+  .header-address-link:hover {
+    color: #404BBF; 
+}
   .header-address-link:focus,
   {
     color: #404BBF; 
+}  
+.header-menu-link-studio:hover {
+    color: #404BBF;
 }
+
+.header-menu-link-studio:focus{
+    color: #404BBF;
+}
+
 .header-address-item:focus{
 background-color: #404BBF;
 }
