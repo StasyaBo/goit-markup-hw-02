@@ -74,14 +74,17 @@ flex-shrink: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
   }
 
   .header-address-link{
-
+    color: #434455;
   }
   .header-address-item:hover,
-    .header-menu-link:hover {
+  .header-menu-link:hover,
+  .header-menu-link:focus
+  .header-address-link:hover,
+  .header-address-link:focus,
+  {
     color: #404BBF; 
 }
 .header-address-item:focus{
@@ -113,7 +116,8 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus{
     background-color: #404BBF;
 
 }
@@ -158,10 +162,11 @@ text-transform: capitalize;
 }
 
 .team-list {
-    background-color: #ffff;
+    background-color: #FFFFFF;
 }
 
 .team-card {
+    background-color: #FFFFFF;
 }
 
 .team-img {
