@@ -15,11 +15,8 @@ ul {
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -54,11 +51,7 @@ letter-spacing: 0.02em;
 
 .header-menu-studio:active {
 color: #404bbf;
-display: flex;
 padding-bottom: 4px;
-flex-direction: column;
-align-items: flex-start;
-gap: 20px;
 flex-shrink: 0;
 
 }
@@ -81,15 +74,14 @@ flex-shrink: 0;
   .header-address-link:hover {
     color: #404BBF; 
 }
-  .header-address-link:focus,
-  {
+  .header-address-link:focus {
     color: #404BBF; 
 }  
-.header-menu-link-studio:hover {
+.header-menu-link:hover {
     color: #404BBF;
 }
 
-.header-menu-link-studio:focus{
+.header-menu-link:focus{
     color: #404BBF;
 }
 
